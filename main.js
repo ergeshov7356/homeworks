@@ -32,11 +32,17 @@ let averAge = (97 + 89 + 75 + 90) / 4;
 let average = "Экзамендин орточо баллы:" + averAge;
 console.log(average);
 
-for (let i = 1; i <= 4; i += 1) {
-  for (let j = 1; j <= 9; j += 1) {
-    console.log(`${i} x ${j} = ${i * j}`);
-  }
-}
+//
+let number = 4;
+console.log("1 x " + number + "=" + number * 1);
+console.log("2 x " + number + "=" + number * 2);
+console.log("3 x " + number + "=" + number * 4);
+console.log("5 x " + number + "=" + number * 5);
+console.log("6 x " + number + "=" + number * 6);
+console.log("7 x " + number + "=" + number * 7);
+console.log("8 x " + number + "=" + number * 8);
+console.log("9 x " + number + "=" + number * 9);
+console.log("10 x " + number + "=" + number * 10);
 //
 alert("Вы успешно зарегистрировались!");
 
