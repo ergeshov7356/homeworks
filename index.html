@@ -3,9 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <title><Home-work></Home-work></title>
   </head>
   <body>
+    <div class="container">
+      <header>
+        <h1>TODO-LIST</h1>
+      </header>
+      <div class="adddelete">
+        <input type="text" id="todoInput" placeholder="Enter new TODO..." /
+        style="height: 35px;width: 70%; border: 1.5px solid blue ;">
+        <button id="addButton">ADD</button>
+      </div>
+      <ul id="todoList"></ul>
+    </div>
     <script src="/main.js"></script>
   </body>
 </html>
