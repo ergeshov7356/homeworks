@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  background-color: rgb(163, 213, 213);
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  /* background-color: red; */
+  border-radius: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-top: 5px;
+  background-color: #fff;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+
+#addButton {
+  width: 100px;
+  border-bottom-left-radius: 20%;
+  border-top-right-radius: 20%;
+  color: whitesmoke;
+  background-color: rgb(234, 27, 123);
+}
+.adddelete {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+li {
+  background-color: rgb(137, 199, 102);
+}
